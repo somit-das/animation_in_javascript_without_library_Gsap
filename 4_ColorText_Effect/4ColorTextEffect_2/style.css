@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 21, 21);
+    
+}
+h2{
+    position: relative;
+    font-size: 3rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* color: #fff2; */
+    
+}
+h2 span{
+  
+    color:#f6905d;
+    transition: 0.25s;
+    text-shadow: -1 -2 1px rgba(116, 116, 213, 0.399), 1 2 5px rgba(245, 102, 255, 0.926), 2 4 5px rgba(111, 230, 214, 0.224);
+
+}
+
+@keyframes animateText {
+    0%,20%{
+        color:gray;
+    }
+    21%,79%{
+        color:rgb(131, 200, 119);
+    }
+    80%,100%{
+        color:gray;
+    }
+}
+h2 span{
+    position: relative;
+    animation: animateText 1s linear infinite;
+}

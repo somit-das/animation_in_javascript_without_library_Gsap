@@ -1,0 +1,1 @@
+## Text with appearing with EarthQuake effect
